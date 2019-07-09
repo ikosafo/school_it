@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc974901-9fa4-433f-b69e-46eab11fcdc9" name="Default" comment="" />
+    <ignored path="emma_school.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="emma_school" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="student_terminal_report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/student_terminal_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="162" column="32" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="32" />
+              <folding>
+                <marker date="1527491923389" expanded="true" signature="81:163" placeholder="select * fro..." />
+                <marker date="1527491923389" expanded="true" signature="627:681" placeholder="select * fro..student..." />
+                <marker date="1527491923389" expanded="true" signature="762:815" placeholder="select DISTI..course_class..." />
+                <marker date="1527491923389" expanded="true" signature="851:884" placeholder="select * fro..institution..." />
+                <marker date="1527491923389" expanded="true" signature="4868:4909" placeholder="select * fro..class..." />
+                <marker date="1527491923389" expanded="true" signature="5165:5326" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="5495:5654" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="5826:6026" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="6197:6375" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="6547:6787" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="7071:7236" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="7405:7568" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="7740:7944" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="8115:8278" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="8450:8673" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="9015:9219" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="9398:9563" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="9748:9925" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="10088:10303" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="10999:11537" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="11095:11312" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="12526:12589" placeholder="select count..student..." />
+                <marker date="1527491923389" expanded="true" signature="14074:14501" placeholder="SELECT DISTI..." />
+                <marker date="1527491923389" expanded="true" signature="15251:15804" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="15347:15560" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="16933:17102" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="17619:17787" placeholder="select count..student_assessment..." />
+                <marker date="1527491923389" expanded="true" signature="18081:18226" placeholder="select * fro..bill_conduct..." />
+                <marker date="1527491923389" expanded="true" signature="29260:29390" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_order_merit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/class_order_merit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.846154">
+              <caret line="363" column="50" selection-start-line="363" selection-start-column="50" selection-end-line="363" selection-end-column="50" />
+              <folding>
+                <marker date="1527502749518" expanded="true" signature="155:237" placeholder="select * fro..." />
+                <marker date="1527502749518" expanded="true" signature="1118:1186" placeholder="select * fro..course_class..." />
+                <marker date="1527502749518" expanded="true" signature="2142:2412" placeholder="select DISTI..student..." />
+                <marker date="1527502749518" expanded="true" signature="2799:2867" placeholder="select * fro..course_class..." />
+                <marker date="1527502749518" expanded="true" signature="3039:3132" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="3666:3712" placeholder="select * fro..class..." />
+                <marker date="1527502749518" expanded="true" signature="3968:4129" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="4298:4457" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="4628:4680" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="4847:5047" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="5218:5396" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="5567:5619" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="5786:6026" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="6197:6394" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="6565:6617" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="6972:7137" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="7306:7469" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="7643:7695" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="7865:8069" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="8240:8422" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="8595:8647" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="8818:9060" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="9232:9433" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="9607:9659" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="10141:10345" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="10526:10730" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="10916:11081" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="11267:11444" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="11604:11657" placeholder="select total..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="11840:12055" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="12245:12470" placeholder="SELECT id FR..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="12635:12689" placeholder="select total..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="13326:13874" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="13422:13644" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527502749518" expanded="true" signature="14558:14727" placeholder="select sum(t..student_assessment..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive_order_merit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archive_order_merit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive_class_order_merit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/archive_class_order_merit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.807693">
+              <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+              <folding>
+                <marker date="1527502972581" expanded="true" signature="1011:1079" placeholder="select * fro..course_class..." />
+                <marker date="1527502972581" expanded="true" signature="2035:2305" placeholder="select DISTI..student..." />
+                <marker date="1527502972581" expanded="true" signature="2692:2760" placeholder="select * fro..course_class..." />
+                <marker date="1527502972581" expanded="true" signature="2932:3025" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="3559:3605" placeholder="select * fro..class..." />
+                <marker date="1527502972581" expanded="true" signature="3861:4022" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="4191:4350" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="4521:4573" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="4740:4940" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="5111:5289" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="5460:5512" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="5679:5919" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="6090:6287" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="6458:6510" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="6865:7030" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="7199:7362" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="7536:7588" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="7758:7962" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="8133:8315" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="8488:8540" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="8711:8953" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="9125:9326" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="9500:9552" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="10034:10238" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="10419:10623" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="10809:10974" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="11160:11337" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="11497:11550" placeholder="select total..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="11733:11948" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="12138:12363" placeholder="SELECT id FR..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="12528:12582" placeholder="select total..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="13220:13768" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="13316:13538" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527502972581" expanded="true" signature="14452:14621" placeholder="select sum(t..student_assessment..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive_class_terminal_report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/archive_class_terminal_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.1153846">
+              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+              <folding>
+                <marker date="1527503049447" expanded="true" signature="214:295" placeholder="select * fro..." />
+                <marker date="1527503049447" expanded="true" signature="619:668" placeholder="select * fro..student..." />
+                <marker date="1527503049447" expanded="true" signature="1116:1170" placeholder="select * fro..student..." />
+                <marker date="1527503049447" expanded="true" signature="1267:1320" placeholder="select DISTI..course_class..." />
+                <marker date="1527503049447" expanded="true" signature="1364:1397" placeholder="select * fro..institution..." />
+                <marker date="1527503049447" expanded="true" signature="5860:5906" placeholder="select * fro..class..." />
+                <marker date="1527503049447" expanded="true" signature="6202:6363" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="6556:6715" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="6910:6962" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="7153:7353" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="7548:7726" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="7921:7973" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="8164:8404" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="8599:8796" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="8991:9043" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="9446:9611" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="9804:9967" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="10165:10217" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="10411:10615" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="10810:10992" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="11189:11241" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="11436:11678" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="11874:12075" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="12273:12325" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="12879:13083" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="13288:13492" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="13702:13867" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="14077:14254" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="14438:14491" placeholder="select total..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="14698:14913" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="15127:15352" placeholder="SELECT id FR..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="15541:15595" placeholder="select total..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="16520:17068" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="16616:16838" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="18253:18316" placeholder="select count..student..." />
+                <marker date="1527503049447" expanded="true" signature="20015:20442" placeholder="SELECT DISTI..." />
+                <marker date="1527503049447" expanded="true" signature="21273:21836" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="21369:21587" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="23158:23327" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="23949:24117" placeholder="select count..student_assessment..." />
+                <marker date="1527503049447" expanded="true" signature="24475:24620" placeholder="select * fro..bill_conduct..." />
+                <marker date="1527503049447" expanded="true" signature="36199:36329" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="archive_student_terminal_report.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/archive_student_terminal_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4755245">
+              <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+              <folding>
+                <marker date="1527503162714" expanded="true" signature="283:364" placeholder="select * fro..." />
+                <marker date="1527503162714" expanded="true" signature="524:578" placeholder="select * fro..student..." />
+                <marker date="1527503162714" expanded="true" signature="659:712" placeholder="select DISTI..course_class..." />
+                <marker date="1527503162714" expanded="true" signature="748:781" placeholder="select * fro..institution..." />
+                <marker date="1527503162714" expanded="true" signature="4778:4819" placeholder="select * fro..class..." />
+                <marker date="1527503162714" expanded="true" signature="5075:5236" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="5405:5564" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="5735:5787" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="5954:6154" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="6325:6503" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="6674:6726" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="6893:7133" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="7304:7501" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="7672:7724" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="8079:8244" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="8413:8576" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="8750:8802" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="8972:9176" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="9347:9529" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="9702:9754" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="9925:10167" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="10339:10540" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="10714:10766" placeholder="select * fro..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="11248:11452" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="11633:11837" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="12023:12188" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="12374:12551" placeholder="select id fr..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="12711:12764" placeholder="select total..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="12947:13162" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="13352:13577" placeholder="SELECT id FR..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="13742:13796" placeholder="select total..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="14578:15116" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="14674:14891" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="16100:16163" placeholder="select count..student..." />
+                <marker date="1527503162714" expanded="true" signature="17646:18073" placeholder="SELECT DISTI..." />
+                <marker date="1527503162714" expanded="true" signature="18824:19377" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="18920:19133" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="20507:20676" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="21194:21362" placeholder="select count..student_assessment..." />
+                <marker date="1527503162714" expanded="true" signature="21656:21801" placeholder="select * fro..bill_conduct..." />
+                <marker date="1527503162714" expanded="true" signature="32833:32963" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_terminal_report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/class_terminal_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+              <folding>
+                <marker date="1527491707625" expanded="true" signature="81:163" placeholder="select * fro..." />
+                <marker date="1527491707625" expanded="true" signature="629:697" placeholder="select * fro..student..." />
+                <marker date="1527491707625" expanded="true" signature="1133:1206" placeholder="select * fro..student..." />
+                <marker date="1527491707625" expanded="true" signature="1295:1348" placeholder="select DISTI..course_class..." />
+                <marker date="1527491707625" expanded="true" signature="1388:1421" placeholder="select * fro..institution..." />
+                <marker date="1527491707625" expanded="true" signature="5087:5101" placeholder="select * fro..department..." />
+                <marker date="1527491707625" expanded="true" signature="5087:5133" placeholder="select * fro..class..." />
+                <marker date="1527491707625" expanded="true" signature="5369:5530" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="5687:5846" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="6006:6206" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="6365:6543" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="6703:6821" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="6703:6943" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="7207:7372" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="7529:7692" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="7852:8056" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="8215:8378" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="8538:8761" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="9074:9278" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="9445:9610" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="9783:9960" placeholder="select id fr..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="10111:10326" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="10233:10326" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="10959:11507" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="11055:11277" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="12403:12466" placeholder="select count..student..." />
+                <marker date="1527491707625" expanded="true" signature="13841:14268" placeholder="SELECT DISTI..." />
+                <marker date="1527491707625" expanded="true" signature="14980:15543" placeholder="SELECT stude..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="15076:15294" placeholder="SELECT COUNT..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="16577:16746" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="17212:17380" placeholder="select count..student_assessment..." />
+                <marker date="1527491707625" expanded="true" signature="17642:17787" placeholder="select * fro..bill_conduct..." />
+                <marker date="1527491707625" expanded="true" signature="28637:28767" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="savestudentassessment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/savestudentassessment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4615384">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <marker date="1527502299895" expanded="true" signature="652:703" placeholder="select * fro..course_class..." />
+                <marker date="1527502299895" expanded="true" signature="842:944" placeholder="select * fro..grading..." />
+                <marker date="1527502299895" expanded="true" signature="1120:1750" placeholder="INSERT INTO ..." />
+                <marker date="1527502299895" expanded="true" signature="1837:1885" placeholder="select * fro..class..." />
+                <marker date="1527502299895" expanded="true" signature="2041:2202" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="2311:2470" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="2581:2624" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="2581:2633" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="2740:2940" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="3051:3229" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="3340:3392" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="3499:3739" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="3850:4047" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="4158:4210" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="4445:4610" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="4719:4882" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="4996:5048" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="5158:5362" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="5473:5655" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="5768:5820" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="5931:6173" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="6285:6486" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="6600:6652" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="6954:7158" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="7279:7483" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="7609:7774" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="7900:8077" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="8177:8230" placeholder="select total..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="8353:8568" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="8698:8923" placeholder="SELECT id FR..student_assessment..." />
+                <marker date="1527502299895" expanded="true" signature="9028:9082" placeholder="select total..student_assessment..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editstudentassessment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/editstudentassessment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <marker date="1527502388384" expanded="true" signature="770:872" placeholder="select * fro..grading..." />
+                <marker date="1527502388384" expanded="true" signature="1357:1405" placeholder="select * fro..class..." />
+                <marker date="1527502388384" expanded="true" signature="1561:1722" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="1831:1990" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="2101:2153" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="2260:2460" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="2571:2749" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="2860:2912" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="3019:3259" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="3370:3567" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="3678:3730" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="3965:4130" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="4239:4402" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="4516:4568" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="4678:4882" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="4993:5175" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="5288:5340" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="5451:5693" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="5805:6006" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="6120:6172" placeholder="select * fro..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="6474:6678" placeholder="select sum(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="6799:7003" placeholder="select sum(t..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="7129:7294" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="7420:7597" placeholder="select id fr..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="7697:7750" placeholder="select total..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="7873:8088" placeholder="SELECT MIN(g..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="8218:8443" placeholder="SELECT id FR..student_assessment..." />
+                <marker date="1527502388384" expanded="true" signature="8548:8602" placeholder="select total..student_assessment..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_bill_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/student_bill_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+              <folding>
+                <marker date="1527477769613" expanded="true" signature="150:232" placeholder="select * fro..." />
+                <marker date="1527477769613" expanded="true" signature="404:497" placeholder="SELECT * FRO..student..." />
+                <marker date="1527477769613" expanded="true" signature="598:704" placeholder="select * fro..tuition_fees..." />
+                <marker date="1527477769613" expanded="true" signature="1018:1072" placeholder="select * fro..student..." />
+                <marker date="1527477769613" expanded="true" signature="1148:1263" placeholder="select * fro..bill_conduct..." />
+                <marker date="1527477769613" expanded="true" signature="2035:2071" placeholder="select * fro..department..." />
+                <marker date="1527477769613" expanded="true" signature="2352:2400" placeholder="select * fro..." />
+                <marker date="1527477769613" expanded="true" signature="8922:9037" placeholder="select * fro..bill_conduct..." />
+                <marker date="1527477769613" expanded="true" signature="9967:10003" placeholder="select * fro..department..." />
+                <marker date="1527477769613" expanded="true" signature="10284:10332" placeholder="select * fro..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ajax/delete_fees.php" />
+        <option value="$PROJECT_DIR$/archive_order_merit.php" />
+        <option value="$PROJECT_DIR$/ajax/archive_order_class.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/login/css/main.css" />
+        <option value="$PROJECT_DIR$/program.php" />
+        <option value="$PROJECT_DIR$/ajax/saveprogram.php" />
+        <option value="$PROJECT_DIR$/ajax/saveeditprogram.php" />
+        <option value="$PROJECT_DIR$/ajax/edit_program_form.php" />
+        <option value="$PROJECT_DIR$/ajax/delete_program.php" />
+        <option value="$PROJECT_DIR$/ajax/program_table.php" />
+        <option value="$PROJECT_DIR$/ajax/add_new_student.php" />
+        <option value="$PROJECT_DIR$/new_student.php" />
+        <option value="$PROJECT_DIR$/ajax/view_student.php" />
+        <option value="$PROJECT_DIR$/ajax/add_new_stud.php" />
+        <option value="$PROJECT_DIR$/ajax/edit_student.php" />
+        <option value="$PROJECT_DIR$/institution_details.php" />
+        <option value="$PROJECT_DIR$/ajax/summary_institution.php" />
+        <option value="$PROJECT_DIR$/ajax/saveschool.php" />
+        <option value="$PROJECT_DIR$/ajax/uploadlogo.php" />
+        <option value="$PROJECT_DIR$/ajax/uploadsignature.php" />
+        <option value="$PROJECT_DIR$/ajax/institution_detail.php" />
+        <option value="$PROJECT_DIR$/ajax/add_student_mark.php" />
+        <option value="$PROJECT_DIR$/ajax/edit_student_mark.php" />
+        <option value="$PROJECT_DIR$/ajax/delete_student.php" />
+        <option value="$PROJECT_DIR$/include/sidebar.php" />
+        <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/ajax/contact.php" />
+        <option value="$PROJECT_DIR$/ajax/grading_table.php" />
+        <option value="$PROJECT_DIR$/ajax/grading_form.php" />
+        <option value="$PROJECT_DIR$/ajax/savegrading.php" />
+        <option value="$PROJECT_DIR$/ajax/loadstudentimage.php" />
+        <option value="$PROJECT_DIR$/ajax/dashboard.php" />
+        <option value="$PROJECT_DIR$/ajax/marks_input_table.php" />
+        <option value="$PROJECT_DIR$/ajax/student_table.php" />
+        <option value="$PROJECT_DIR$/ajax/summary_table.php" />
+        <option value="$PROJECT_DIR$/ajax/savestudentdetails.php" />
+        <option value="$PROJECT_DIR$/include/top_menu.php" />
+        <option value="$PROJECT_DIR$/ajax/savefees.php" />
+        <option value="$PROJECT_DIR$/ajax/tuition_fees_table.php" />
+        <option value="$PROJECT_DIR$/ajax/academic_session_table.php" />
+        <option value="$PROJECT_DIR$/ajax/saveacad.php" />
+        <option value="$PROJECT_DIR$/ajax/student_bill_form.php" />
+        <option value="$PROJECT_DIR$/ajax/class_terminal_report.php" />
+        <option value="$PROJECT_DIR$/ajax/student_terminal_report.php" />
+        <option value="$PROJECT_DIR$/ajax/savestudentassessment.php" />
+        <option value="$PROJECT_DIR$/ajax/editstudentassessment.php" />
+        <option value="$PROJECT_DIR$/ajax/class_order_merit.php" />
+        <option value="$PROJECT_DIR$/ajax/archive_class_order_merit.php" />
+        <option value="$PROJECT_DIR$/ajax/archive_class_terminal_report.php" />
+        <option value="$PROJECT_DIR$/ajax/archive_student_terminal_report.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emma_school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emma_school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emma_school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emma_school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emma_school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="emma_school">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="emma_school">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ajax">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../acceleron_systems" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc974901-9fa4-433f-b69e-46eab11fcdc9" name="Default" comment="" />
+      <created>1523548864433</created>
+      <option name="number" value="Default" />
+      <updated>1523548864433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17474303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17642753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ajax/uploadstudentimage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.576923">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/uploadsignature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.730769">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/uploadlogo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.461538">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/institution_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.923077">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assessment_input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.038462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bottom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.461538">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.461538">
+          <caret line="64" column="33" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/terminal_report_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/add_new_stud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/marks_input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/add_student_mark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/delete_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/view_student.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_ad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.961538">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/grading_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6153846">
+          <caret line="231" column="44" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savegrading.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.038462">
+          <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/archive_order_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/saveschool.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/assessment_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="20.153847">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/grading_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.076923">
+          <caret line="95" column="53" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savestudentdetails_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-48.96154">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/edit_student_mark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="45.653847">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/class_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9615383">
+          <caret line="593" column="0" selection-start-line="593" selection-start-column="0" selection-end-line="593" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savedept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6923075">
+          <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/marks_input_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6923075">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/summary_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.230769">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/student_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savestudentdetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1538463">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/top_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.846154">
+          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savefees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.115385">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tuition_fees_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="511" column="69" selection-start-line="511" selection-start-column="69" selection-end-line="511" selection-end-column="69" />
+          <folding>
+            <marker date="1527477180681" expanded="true" signature="-1:-1" placeholder="select * fro..tuition_fees..." />
+            <marker date="1527477180681" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..department..." />
+            <marker date="1527477180681" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/academic_session_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="730" column="43" selection-start-line="730" selection-start-column="43" selection-end-line="730" selection-end-column="43" />
+          <folding>
+            <marker date="1527477405127" expanded="true" signature="-1:-1" placeholder="select * fro..academic_session..." />
+            <marker date="1527477405127" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/saveacad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <marker date="1527477534727" expanded="true" signature="-1:-1" placeholder="select * fro..academic_session..." />
+            <marker date="1527477534727" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savebillconduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524490022835" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/bill_input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524425752048" expanded="true" signature="-1:-1" placeholder="select * fro..department..." />
+            <marker date="1524425752048" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/student_bill_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding>
+            <marker date="1527477769613" expanded="true" signature="150:232" placeholder="select * fro..." />
+            <marker date="1527477769613" expanded="true" signature="404:497" placeholder="SELECT * FRO..student..." />
+            <marker date="1527477769613" expanded="true" signature="598:704" placeholder="select * fro..tuition_fees..." />
+            <marker date="1527477769613" expanded="true" signature="1018:1072" placeholder="select * fro..student..." />
+            <marker date="1527477769613" expanded="true" signature="1148:1263" placeholder="select * fro..bill_conduct..." />
+            <marker date="1527477769613" expanded="true" signature="2035:2071" placeholder="select * fro..department..." />
+            <marker date="1527477769613" expanded="true" signature="2352:2400" placeholder="select * fro..." />
+            <marker date="1527477769613" expanded="true" signature="8922:9037" placeholder="select * fro..bill_conduct..." />
+            <marker date="1527477769613" expanded="true" signature="9967:10003" placeholder="select * fro..department..." />
+            <marker date="1527477769613" expanded="true" signature="10284:10332" placeholder="select * fro..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/student_terminal_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="162" column="32" selection-start-line="162" selection-start-column="32" selection-end-line="162" selection-end-column="32" />
+          <folding>
+            <marker date="1527491923389" expanded="true" signature="81:163" placeholder="select * fro..." />
+            <marker date="1527491923389" expanded="true" signature="627:681" placeholder="select * fro..student..." />
+            <marker date="1527491923389" expanded="true" signature="762:815" placeholder="select DISTI..course_class..." />
+            <marker date="1527491923389" expanded="true" signature="851:884" placeholder="select * fro..institution..." />
+            <marker date="1527491923389" expanded="true" signature="4868:4909" placeholder="select * fro..class..." />
+            <marker date="1527491923389" expanded="true" signature="5165:5326" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="5495:5654" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="5826:6026" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="6197:6375" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="6547:6787" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="7071:7236" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="7405:7568" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="7740:7944" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="8115:8278" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="8450:8673" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="9015:9219" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="9398:9563" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="9748:9925" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="10088:10303" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="10999:11537" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="11095:11312" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="12526:12589" placeholder="select count..student..." />
+            <marker date="1527491923389" expanded="true" signature="14074:14501" placeholder="SELECT DISTI..." />
+            <marker date="1527491923389" expanded="true" signature="15251:15804" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="15347:15560" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="16933:17102" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="17619:17787" placeholder="select count..student_assessment..." />
+            <marker date="1527491923389" expanded="true" signature="18081:18226" placeholder="select * fro..bill_conduct..." />
+            <marker date="1527491923389" expanded="true" signature="29260:29390" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/class_terminal_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="279" column="0" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+          <folding>
+            <marker date="1527491707625" expanded="true" signature="81:163" placeholder="select * fro..." />
+            <marker date="1527491707625" expanded="true" signature="629:697" placeholder="select * fro..student..." />
+            <marker date="1527491707625" expanded="true" signature="1133:1206" placeholder="select * fro..student..." />
+            <marker date="1527491707625" expanded="true" signature="1295:1348" placeholder="select DISTI..course_class..." />
+            <marker date="1527491707625" expanded="true" signature="1388:1421" placeholder="select * fro..institution..." />
+            <marker date="1527491707625" expanded="true" signature="5087:5101" placeholder="select * fro..department..." />
+            <marker date="1527491707625" expanded="true" signature="5087:5133" placeholder="select * fro..class..." />
+            <marker date="1527491707625" expanded="true" signature="5369:5530" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="5687:5846" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="6006:6206" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="6365:6543" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="6703:6821" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="6703:6943" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="7207:7372" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="7529:7692" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="7852:8056" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="8215:8378" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="8538:8761" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="9074:9278" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="9445:9610" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="9783:9960" placeholder="select id fr..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="10111:10326" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="10233:10326" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="10959:11507" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="11055:11277" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="12403:12466" placeholder="select count..student..." />
+            <marker date="1527491707625" expanded="true" signature="13841:14268" placeholder="SELECT DISTI..." />
+            <marker date="1527491707625" expanded="true" signature="14980:15543" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="15076:15294" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="16577:16746" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="17212:17380" placeholder="select count..student_assessment..." />
+            <marker date="1527491707625" expanded="true" signature="17642:17787" placeholder="select * fro..bill_conduct..." />
+            <marker date="1527491707625" expanded="true" signature="28637:28767" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/editstudentassessment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1527502388384" expanded="true" signature="770:872" placeholder="select * fro..grading..." />
+            <marker date="1527502388384" expanded="true" signature="1357:1405" placeholder="select * fro..class..." />
+            <marker date="1527502388384" expanded="true" signature="1561:1722" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="1831:1990" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="2101:2153" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="2260:2460" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="2571:2749" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="2860:2912" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="3019:3259" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="3370:3567" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="3678:3730" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="3965:4130" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="4239:4402" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="4516:4568" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="4678:4882" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="4993:5175" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="5288:5340" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="5451:5693" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="5805:6006" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="6120:6172" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="6474:6678" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="6799:7003" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="7129:7294" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="7420:7597" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="7697:7750" placeholder="select total..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="7873:8088" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="8218:8443" placeholder="SELECT id FR..student_assessment..." />
+            <marker date="1527502388384" expanded="true" signature="8548:8602" placeholder="select total..student_assessment..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/savestudentassessment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4615384">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <marker date="1527502299895" expanded="true" signature="652:703" placeholder="select * fro..course_class..." />
+            <marker date="1527502299895" expanded="true" signature="842:944" placeholder="select * fro..grading..." />
+            <marker date="1527502299895" expanded="true" signature="1120:1750" placeholder="INSERT INTO ..." />
+            <marker date="1527502299895" expanded="true" signature="1837:1885" placeholder="select * fro..class..." />
+            <marker date="1527502299895" expanded="true" signature="2041:2202" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="2311:2470" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="2581:2624" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="2581:2633" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="2740:2940" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="3051:3229" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="3340:3392" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="3499:3739" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="3850:4047" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="4158:4210" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="4445:4610" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="4719:4882" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="4996:5048" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="5158:5362" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="5473:5655" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="5768:5820" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="5931:6173" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="6285:6486" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="6600:6652" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="6954:7158" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="7279:7483" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="7609:7774" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="7900:8077" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="8177:8230" placeholder="select total..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="8353:8568" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="8698:8923" placeholder="SELECT id FR..student_assessment..." />
+            <marker date="1527502299895" expanded="true" signature="9028:9082" placeholder="select total..student_assessment..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/class_order_merit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.846154">
+          <caret line="363" column="50" selection-start-line="363" selection-start-column="50" selection-end-line="363" selection-end-column="50" />
+          <folding>
+            <marker date="1527502749518" expanded="true" signature="155:237" placeholder="select * fro..." />
+            <marker date="1527502749518" expanded="true" signature="1118:1186" placeholder="select * fro..course_class..." />
+            <marker date="1527502749518" expanded="true" signature="2142:2412" placeholder="select DISTI..student..." />
+            <marker date="1527502749518" expanded="true" signature="2799:2867" placeholder="select * fro..course_class..." />
+            <marker date="1527502749518" expanded="true" signature="3039:3132" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="3666:3712" placeholder="select * fro..class..." />
+            <marker date="1527502749518" expanded="true" signature="3968:4129" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="4298:4457" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="4628:4680" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="4847:5047" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="5218:5396" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="5567:5619" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="5786:6026" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="6197:6394" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="6565:6617" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="6972:7137" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="7306:7469" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="7643:7695" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="7865:8069" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="8240:8422" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="8595:8647" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="8818:9060" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="9232:9433" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="9607:9659" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="10141:10345" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="10526:10730" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="10916:11081" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="11267:11444" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="11604:11657" placeholder="select total..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="11840:12055" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="12245:12470" placeholder="SELECT id FR..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="12635:12689" placeholder="select total..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="13326:13874" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="13422:13644" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527502749518" expanded="true" signature="14558:14727" placeholder="select sum(t..student_assessment..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive_order_merit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/archive_class_order_merit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.807693">
+          <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+          <folding>
+            <marker date="1527502972581" expanded="true" signature="1011:1079" placeholder="select * fro..course_class..." />
+            <marker date="1527502972581" expanded="true" signature="2035:2305" placeholder="select DISTI..student..." />
+            <marker date="1527502972581" expanded="true" signature="2692:2760" placeholder="select * fro..course_class..." />
+            <marker date="1527502972581" expanded="true" signature="2932:3025" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="3559:3605" placeholder="select * fro..class..." />
+            <marker date="1527502972581" expanded="true" signature="3861:4022" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="4191:4350" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="4521:4573" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="4740:4940" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="5111:5289" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="5460:5512" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="5679:5919" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="6090:6287" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="6458:6510" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="6865:7030" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="7199:7362" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="7536:7588" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="7758:7962" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="8133:8315" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="8488:8540" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="8711:8953" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="9125:9326" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="9500:9552" placeholder="select * fro..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="10034:10238" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="10419:10623" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="10809:10974" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="11160:11337" placeholder="select id fr..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="11497:11550" placeholder="select total..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="11733:11948" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="12138:12363" placeholder="SELECT id FR..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="12528:12582" placeholder="select total..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="13220:13768" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="13316:13538" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527502972581" expanded="true" signature="14452:14621" placeholder="select sum(t..student_assessment..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/archive_class_terminal_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1153846">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+          <folding>
+            <marker date="1527503049447" expanded="true" signature="214:295" placeholder="select * fro..." />
+            <marker date="1527503049447" expanded="true" signature="619:668" placeholder="select * fro..student..." />
+            <marker date="1527503049447" expanded="true" signature="1116:1170" placeholder="select * fro..student..." />
+            <marker date="1527503049447" expanded="true" signature="1267:1320" placeholder="select DISTI..course_class..." />
+            <marker date="1527503049447" expanded="true" signature="1364:1397" placeholder="select * fro..institution..." />
+            <marker date="1527503049447" expanded="true" signature="5860:5906" placeholder="select * fro..class..." />
+            <marker date="1527503049447" expanded="true" signature="6202:6363" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="6556:6715" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="6910:6962" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="7153:7353" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="7548:7726" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="7921:7973" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="8164:8404" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="8599:8796" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="8991:9043" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="9446:9611" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="9804:9967" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="10165:10217" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="10411:10615" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="10810:10992" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="11189:11241" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="11436:11678" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="11874:12075" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="12273:12325" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="12879:13083" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="13288:13492" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="13702:13867" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="14077:14254" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="14438:14491" placeholder="select total..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="14698:14913" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="15127:15352" placeholder="SELECT id FR..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="15541:15595" placeholder="select total..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="16520:17068" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="16616:16838" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="18253:18316" placeholder="select count..student..." />
+            <marker date="1527503049447" expanded="true" signature="20015:20442" placeholder="SELECT DISTI..." />
+            <marker date="1527503049447" expanded="true" signature="21273:21836" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="21369:21587" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="23158:23327" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="23949:24117" placeholder="select count..student_assessment..." />
+            <marker date="1527503049447" expanded="true" signature="24475:24620" placeholder="select * fro..bill_conduct..." />
+            <marker date="1527503049447" expanded="true" signature="36199:36329" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/archive_student_terminal_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4755245">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <marker date="1527503162714" expanded="true" signature="283:364" placeholder="select * fro..." />
+            <marker date="1527503162714" expanded="true" signature="524:578" placeholder="select * fro..student..." />
+            <marker date="1527503162714" expanded="true" signature="659:712" placeholder="select DISTI..course_class..." />
+            <marker date="1527503162714" expanded="true" signature="748:781" placeholder="select * fro..institution..." />
+            <marker date="1527503162714" expanded="true" signature="4778:4819" placeholder="select * fro..class..." />
+            <marker date="1527503162714" expanded="true" signature="5075:5236" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="5405:5564" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="5735:5787" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="5954:6154" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="6325:6503" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="6674:6726" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="6893:7133" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="7304:7501" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="7672:7724" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="8079:8244" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="8413:8576" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="8750:8802" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="8972:9176" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="9347:9529" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="9702:9754" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="9925:10167" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="10339:10540" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="10714:10766" placeholder="select * fro..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="11248:11452" placeholder="select sum(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="11633:11837" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="12023:12188" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="12374:12551" placeholder="select id fr..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="12711:12764" placeholder="select total..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="12947:13162" placeholder="SELECT MIN(g..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="13352:13577" placeholder="SELECT id FR..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="13742:13796" placeholder="select total..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="14578:15116" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="14674:14891" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="16100:16163" placeholder="select count..student..." />
+            <marker date="1527503162714" expanded="true" signature="17646:18073" placeholder="SELECT DISTI..." />
+            <marker date="1527503162714" expanded="true" signature="18824:19377" placeholder="SELECT stude..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="18920:19133" placeholder="SELECT COUNT..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="20507:20676" placeholder="select sum(t..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="21194:21362" placeholder="select count..student_assessment..." />
+            <marker date="1527503162714" expanded="true" signature="21656:21801" placeholder="select * fro..bill_conduct..." />
+            <marker date="1527503162714" expanded="true" signature="32833:32963" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

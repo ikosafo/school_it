@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c91e0c7-4273-4cf9-8ccf-19fd8981b70b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="config_course_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/forms/config_course_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2619">
+              <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+              <folding>
+                <marker date="1561096260695" expanded="true" signature="1070:1109" ph="select * fro... department" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saveform_course.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_course.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding>
+                <marker date="1561096299119" expanded="true" signature="334:378" ph="select * fro... class" />
+                <marker date="1561096299119" expanded="true" signature="465:546" ph="select * fro... course_class" />
+                <marker date="1561096299119" expanded="true" signature="644:847" ph="INSERT INTO `course_class`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class_terminal_report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emma_school/ajax/class_terminal_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1527491707625" expanded="true" signature="81:163" ph="select * fro... academic_session" />
+                <marker date="1527491707625" expanded="true" signature="629:697" ph="select * fro... student" />
+                <marker date="1527491707625" expanded="true" signature="1133:1206" ph="select * fro... student" />
+                <marker date="1527491707625" expanded="true" signature="1295:1348" ph="select DISTI... course_class" />
+                <marker date="1527491707625" expanded="true" signature="1388:1421" ph="select * fro... institution" />
+                <marker date="1527491707625" expanded="true" signature="5087:5133" ph="select * fro... class" />
+                <marker date="1527491707625" expanded="true" signature="5369:5530" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="5687:5846" ph="select id fr... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="6006:6206" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="6365:6543" ph="select id fr... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="6703:6943" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="7207:7372" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="7529:7692" ph="select id fr... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="7852:8056" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="8215:8378" ph="select id fr... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="8538:8761" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="9074:9278" ph="select sum(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="9445:9610" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="9783:9960" ph="select id fr... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="10111:10326" ph="SELECT MIN(g... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="10959:11507" ph="SELECT stude... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="11055:11277" ph="SELECT COUNT... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="12403:12466" ph="select count... student" />
+                <marker date="1527491707625" expanded="true" signature="13841:14268" ph="SELECT DISTI... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="14980:15543" ph="SELECT stude... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="15076:15294" ph="SELECT COUNT... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="16577:16746" ph="select sum(t... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="17212:17380" ph="select count... student_assessment" />
+                <marker date="1527491707625" expanded="true" signature="17642:17787" ph="select * fro... bill_conduct" />
+                <marker date="1527491707625" expanded="true" signature="28513:28518" ph="&amp;" />
+                <marker date="1527491707625" expanded="true" signature="28637:28767" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order_class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/emma_school/ajax/order_class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+              <folding>
+                <marker date="1524470735789" expanded="true" signature="199:235" ph="select * fro... department" />
+                <marker date="1524470735789" expanded="true" signature="396:444" ph="select * fro... class" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_class_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/tables/config_class_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+              <folding>
+                <marker date="1559351347988" expanded="true" signature="63:102" ph="select * fro... class" />
+                <marker date="1559351347988" expanded="true" signature="1238:1280" ph="select * fro... department" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_institution_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/forms/config_institution_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_institution_form_edit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/forms/config_institution_form_edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1562662589676" expanded="true" signature="95:157" ph="select * fro... institution_details" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_department_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/forms/config_department_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_department_form_edit.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/forms/config_department_form_edit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <marker date="1562662729134" expanded="true" signature="94:141" ph="select * fro... department" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>handle-dialog</find>
+      <find>Are you sure to continue?</find>
+      <find>Are you sure to continue</find>
+      <find>continue</find>
+      <find>hello</find>
+      <find>cont</find>
+      <find>dele</find>
+      <find>aRandomButton</find>
+      <find>ARandomButton</find>
+      <find>close</find>
+      <find>aran</find>
+      <find>closeIcon</find>
+      <find>progr</find>
+      <find>professi</find>
+      <find>dep</find>
+      <find>xp-select2-single</find>
+      <find>id=</find>
+      <find>class_</find>
+      <find>_class</find>
+      <find>jq</find>
+      <find>department_</find>
+      <find>profession</find>
+      <find>departmentid</find>
+      <find>dept_</find>
+      <find>placeholder</find>
+      <find>_department</find>
+      <find>multi</find>
+      <find>choose</find>
+      <find>department</find>
+      <find>marks</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>department_</replace>
+      <replace>classid</replace>
+      <replace>class</replace>
+      <replace>_class</replace>
+      <replace>course_</replace>
+      <replace>_course</replace>
+      <replace>class_</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/emma_school/ajax/loginaction_admin.php" />
+        <option value="$PROJECT_DIR$/emma_school/ajax/loginaction.php" />
+        <option value="$PROJECT_DIR$/emma_school/login.php" />
+        <option value="$PROJECT_DIR$/config_institution.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/saveform_institution.php" />
+        <option value="$PROJECT_DIR$/ajax/tables/config_institution_table.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/upload_institution_logo.php" />
+        <option value="$PROJECT_DIR$/config_department.php" />
+        <option value="$PROJECT_DIR$/pages/ui-kits-alerts.html" />
+        <option value="$PROJECT_DIR$/assets/js/init/confirm-init.js" />
+        <option value="$PROJECT_DIR$/assets/plugins/jquery-confirm/js/jquery-confirm.js" />
+        <option value="$PROJECT_DIR$/ajax/queries/delete_department.php" />
+        <option value="$PROJECT_DIR$/ajax/tables/config_department_table.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/saveform_department.php" />
+        <option value="$PROJECT_DIR$/config_courses.php" />
+        <option value="$PROJECT_DIR$/config_class.php" />
+        <option value="$PROJECT_DIR$/assets/js/init/form-select-init.js" />
+        <option value="$PROJECT_DIR$/includes/footer.php" />
+        <option value="$PROJECT_DIR$/ajax/tables/config_class_table.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/saveform_class.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/delete_class.php" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_class_form.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_class_form_edit.php" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_course_form.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/saveform_course.php" />
+        <option value="$PROJECT_DIR$/includes/header.php" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_institution_form.php" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_institution_form_edit.php" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_department_form.php" />
+        <option value="$PROJECT_DIR$/ajax/forms/config_department_form_edit.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="2" />
+    <option name="width" value="1940" />
+    <option name="height" value="1042" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="school_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_management" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="school_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="school_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="forms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="school_management" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school_management" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c91e0c7-4273-4cf9-8ccf-19fd8981b70b" name="Default" comment="" />
+      <created>1558231480460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558231480460</updated>
+      <workItem from="1558231482020" duration="10000" />
+      <workItem from="1558231510038" duration="2437000" />
+      <workItem from="1558245262910" duration="2586000" />
+      <workItem from="1558327242704" duration="1795000" />
+      <workItem from="1558346080805" duration="13950000" />
+      <workItem from="1558428982653" duration="90000" />
+      <workItem from="1558980834702" duration="12894000" />
+      <workItem from="1559067870521" duration="603000" />
+      <workItem from="1559118591051" duration="611000" />
+      <workItem from="1559144566036" duration="17763000" />
+      <workItem from="1559280125060" duration="2355000" />
+      <workItem from="1559292691555" duration="5075000" />
+      <workItem from="1559305021144" duration="587000" />
+      <workItem from="1559321692671" duration="204000" />
+      <workItem from="1559351442038" duration="7222000" />
+      <workItem from="1559848843120" duration="2769000" />
+      <workItem from="1561094245133" duration="1990000" />
+      <workItem from="1561110579686" duration="1998000" />
+      <workItem from="1562648678302" duration="3163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78102000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/js/init/form-select-init.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../ahpc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/queries/saveform_exam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/queries/saveform_experience.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/tables/exam_cert_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_institution_ed.php" />
+    <entry file="file://$PROJECT_DIR$/ajax/queries/upload_institution_logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_institution.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tables/config_institution_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/table-datatable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_institution.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ui-kits-alerts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/init/confirm-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="202" column="24" lean-forward="false" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/plugins/jquery-confirm/js/jquery-confirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="1343" column="54" lean-forward="false" selection-start-line="1343" selection-start-column="54" selection-end-line="1343" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/plugins/jquery-confirm/js/jquery-confirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="1276" column="20" lean-forward="true" selection-start-line="1276" selection-start-column="20" selection-end-line="1276" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/assets/js/init/confirm-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/tables/permanent_experience_table_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="203" column="33" lean-forward="true" selection-start-line="203" selection-start-column="33" selection-end-line="203" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/queries/delete_referee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/forms/permanent_form_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="369" column="0" lean-forward="true" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/forms/provisional_form_nss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14418">
+          <caret line="534" column="0" lean-forward="false" selection-start-line="534" selection-start-column="0" selection-end-line="541" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/init/form-select-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="68" column="61" lean-forward="false" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/forms/permanent_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="429" column="34" lean-forward="false" selection-start-line="429" selection-start-column="32" selection-end-line="429" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/delete_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vdh-crm/app/applications/crm/views/pages/addcompany.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="112" column="66" lean-forward="false" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vdh-crm/public/pages/css/company.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_class_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_class_form_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="54" column="87" lean-forward="false" selection-start-line="54" selection-start-column="87" selection-end-line="54" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form-touchspin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form-selects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13905">
+          <caret line="515" column="0" lean-forward="false" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tables/config_department_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5049">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/delete_department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <marker date="1559352765811" expanded="true" signature="275:323" ph="select * fro... class" />
+            <marker date="1559352765811" expanded="true" signature="399:523" ph="select * fro... class" />
+            <marker date="1559352765811" expanded="true" signature="600:766" ph="INSERT INTO `class`... " />
+            <marker date="1559352765811" expanded="true" signature="914:1030" ph="UPDATE `class`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emma_school/ajax/savecourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1523459458305" expanded="true" signature="360:404" ph="select * fro... class" />
+            <marker date="1523459458305" expanded="true" signature="503:584" ph="select * fro... course_class" />
+            <marker date="1523459458305" expanded="true" signature="690:893" ph="INSERT INTO `course_class`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_courses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emma_school/course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emma_school/ajax/course_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="85" column="34" lean-forward="false" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
+          <folding>
+            <marker date="1523979933500" expanded="true" signature="75:139" ph="select DISTI... course_class" />
+            <marker date="1523979933500" expanded="true" signature="4205:4244" ph="SELECT * FRO... class" />
+            <marker date="1523979933500" expanded="true" signature="12329:12334" ph="&amp;" />
+            <marker date="1523979933500" expanded="true" signature="12453:12583" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_course_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <folding>
+            <marker date="1561096260695" expanded="true" signature="1070:1109" ph="select * fro... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <marker date="1561096299119" expanded="true" signature="334:378" ph="select * fro... class" />
+            <marker date="1561096299119" expanded="true" signature="465:546" ph="select * fro... course_class" />
+            <marker date="1561096299119" expanded="true" signature="644:847" ph="INSERT INTO `course_class`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emma_school/ajax/class_terminal_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1527491707625" expanded="true" signature="81:163" ph="select * fro... academic_session" />
+            <marker date="1527491707625" expanded="true" signature="629:697" ph="select * fro... student" />
+            <marker date="1527491707625" expanded="true" signature="1133:1206" ph="select * fro... student" />
+            <marker date="1527491707625" expanded="true" signature="1295:1348" ph="select DISTI... course_class" />
+            <marker date="1527491707625" expanded="true" signature="1388:1421" ph="select * fro... institution" />
+            <marker date="1527491707625" expanded="true" signature="5087:5133" ph="select * fro... class" />
+            <marker date="1527491707625" expanded="true" signature="5369:5530" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="5687:5846" ph="select id fr... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="6006:6206" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="6365:6543" ph="select id fr... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="6703:6943" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="7207:7372" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="7529:7692" ph="select id fr... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="7852:8056" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="8215:8378" ph="select id fr... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="8538:8761" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="9074:9278" ph="select sum(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="9445:9610" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="9783:9960" ph="select id fr... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="10111:10326" ph="SELECT MIN(g... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="10959:11507" ph="SELECT stude... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="11055:11277" ph="SELECT COUNT... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="12403:12466" ph="select count... student" />
+            <marker date="1527491707625" expanded="true" signature="13841:14268" ph="SELECT DISTI... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="14980:15543" ph="SELECT stude... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="15076:15294" ph="SELECT COUNT... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="16577:16746" ph="select sum(t... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="17212:17380" ph="select count... student_assessment" />
+            <marker date="1527491707625" expanded="true" signature="17642:17787" ph="select * fro... bill_conduct" />
+            <marker date="1527491707625" expanded="true" signature="28513:28518" ph="&amp;" />
+            <marker date="1527491707625" expanded="true" signature="28637:28767" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emma_school/ajax/order_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <marker date="1524470735789" expanded="true" signature="199:235" ph="select * fro... department" />
+            <marker date="1524470735789" expanded="true" signature="396:444" ph="select * fro... class" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tables/config_class_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="49" column="51" lean-forward="false" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding>
+            <marker date="1559351347988" expanded="true" signature="63:102" ph="select * fro... class" />
+            <marker date="1559351347988" expanded="true" signature="1238:1280" ph="select * fro... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="64" column="40" lean-forward="false" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_institution_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_institution_form_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1562662589676" expanded="true" signature="95:157" ph="select * fro... institution_details" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_department_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/forms/config_department_form_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <marker date="1562662729134" expanded="true" signature="94:141" ph="select * fro... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
