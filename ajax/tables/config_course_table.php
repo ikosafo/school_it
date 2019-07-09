@@ -44,7 +44,13 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                             echo $counter;
                             ?>
                         </td>
-                        <td><?php echo $course_name = $rclass['course_name'] ?></td>
+                        <td><?php echo $course_name = $rclass['course_name'];
+
+                        $getid = $mysqli->query("select * from course_class where course_name = '$course_name'");
+                        $resid = $getid->fetch_assoc();
+                        $course_id = $resid['course_id'];
+
+                        ?></td>
                         <td>
 
                                 <table class="display">
@@ -64,8 +70,8 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                                         </td>
 
                                         <td align="center">
-                                            <a href="#" class="delete_department"
-                                               i_index="<?php echo $resclass['id']; ?>">
+                                            <a href="#" class="delete_courseclass"
+                                               courseclass_id="<?php echo $resclass['id']; ?>">
                                                 Delete
                                             </a>
                                         </td>
@@ -81,14 +87,14 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
                         <td align="center">
                             <a href="#" class="edit_department"
-                               i_index="<?php echo $resclass['id']; ?>">
+                               i_index="<?php echo $rclass['course_id']; ?>">
                                 <i class="fa fa-2x fa-edit"></i>
                             </a>
                         </td>
 
                         <td align="center">
-                            <a href="#" class="delete_department"
-                               i_index="<?php echo $resclass['id']; ?>">
+                            <a href="#" class="delete_course"
+                               i_index="<?php echo $course_id; ?>">
                                 <i class="fa fa-2x fa-trash-o"></i>
                             </a>
                         </td>
@@ -118,7 +124,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
     $_blockDelete = false;
 
     //Handle closeIcon's callback
-    $(document).on('click', '.delete_class', function () {
+    $(document).on('click', '.delete_course', function () {
 
         event.preventDefault();
 
@@ -130,7 +136,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
             //alert(id_index);
 
             $.confirm({
-                title: 'Delete Class!',
+                title: 'Delete Course!',
                 content: 'Are you sure to continue?',
                 buttons: {
                     no: {
@@ -143,7 +149,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                             $.alert('Data is safe');
 
                             $.ajax({
-                                url: "ajax/tables/config_class_table.php",
+                                url: "ajax/tables/config_course_table.php",
                                 beforeSend: function () {
                                     $.blockUI({
                                         message: '<img src="assets/images/load.gif"/>'
@@ -151,7 +157,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                                 },
 
                                 success: function (text) {
-                                    $('#class_table_div').html(text);
+                                    $('#course_table_div').html(text);
                                 },
                                 error: function (xhr, ajaxOptions, thrownError) {
                                     alert(xhr.status + " " + thrownError);
@@ -172,7 +178,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
                             $.ajax({
                                 type: "POST",
-                                url: "ajax/queries/delete_class.php",
+                                url: "ajax/queries/delete_course.php",
                                 data: {
                                     id_index: id_index
                                 },
@@ -180,8 +186,9 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
                                 success: function (text) {
 
+
                                     $.ajax({
-                                        url: "ajax/tables/config_class_table.php",
+                                        url: "ajax/tables/config_course_table.php",
                                         beforeSend: function () {
                                             $.blockUI({
                                                 message: '<img src="assets/images/load.gif"/>'
@@ -189,7 +196,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                                         },
 
                                         success: function (text) {
-                                            $('#class_table_div').html(text);
+                                            $('#course_table_div').html(text);
                                         },
                                         error: function (xhr, ajaxOptions, thrownError) {
                                             alert(xhr.status + " " + thrownError);
@@ -222,6 +229,117 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
 
     });
+
+
+
+
+
+    $(document).on('click', '.delete_courseclass', function () {
+
+        event.preventDefault();
+
+        if (!$_blockDelete) {
+            $_blockDelete = true;
+
+            var courseclass_id = $(this).attr('courseclass_id');
+
+            //alert(id_index);
+
+            $.confirm({
+                title: 'Delete Class assigned to course!',
+                content: 'Are you sure to continue?',
+                buttons: {
+                    no: {
+                        text: 'No',
+                        keys: ['enter', 'shift'],
+                        backdrop: 'static',
+                        keyboard: false,
+                        action: function () {
+
+                            $.alert('Data is safe');
+
+                            $.ajax({
+                                url: "ajax/tables/config_course_table.php",
+                                beforeSend: function () {
+                                    $.blockUI({
+                                        message: '<img src="assets/images/load.gif"/>'
+                                    });
+                                },
+
+                                success: function (text) {
+                                    $('#course_table_div').html(text);
+                                },
+                                error: function (xhr, ajaxOptions, thrownError) {
+                                    alert(xhr.status + " " + thrownError);
+                                },
+                                complete: function () {
+                                    $.unblockUI();
+                                },
+
+                            });
+                        }
+
+                    },
+                    yes: {
+                        text: 'Yes, Delete it!',
+                        btnClass: 'btn-blue',
+                        action: function () {
+
+
+                            $.ajax({
+                                type: "POST",
+                                url: "ajax/queries/delete_courseclass.php",
+                                data: {
+                                    courseclass_id: courseclass_id
+                                },
+                                dataType: "html",
+
+                                success: function (text) {
+
+
+                                    $.ajax({
+                                        url: "ajax/tables/config_course_table.php",
+                                        beforeSend: function () {
+                                            $.blockUI({
+                                                message: '<img src="assets/images/load.gif"/>'
+                                            });
+                                        },
+
+                                        success: function (text) {
+                                            $('#course_table_div').html(text);
+                                        },
+                                        error: function (xhr, ajaxOptions, thrownError) {
+                                            alert(xhr.status + " " + thrownError);
+                                        },
+                                        complete: function () {
+                                            $.unblockUI();
+                                        },
+
+                                    });
+                                },
+
+                                complete: function () {
+
+                                },
+                                error: function (xhr, ajaxOptions, thrownError) {
+                                    alert(xhr.status + " " + thrownError);
+                                }
+                            });
+
+
+                        }
+
+                    }
+
+
+                }
+            });
+
+        }
+
+
+    });
+
 
 
     $(document).on('click', '.edit_class', function () {

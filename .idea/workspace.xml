@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c91e0c7-4273-4cf9-8ccf-19fd8981b70b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ajax/forms/config_class_form.php" afterPath="$PROJECT_DIR$/ajax/forms/config_class_form.php" />
-      <change beforePath="$PROJECT_DIR$/ajax/forms/config_class_form_edit.php" afterPath="$PROJECT_DIR$/ajax/forms/config_class_form_edit.php" />
-      <change beforePath="$PROJECT_DIR$/ajax/forms/config_course_form.php" afterPath="$PROJECT_DIR$/ajax/forms/config_course_form.php" />
-      <change beforePath="$PROJECT_DIR$/ajax/forms/config_department_form.php" afterPath="$PROJECT_DIR$/ajax/forms/config_department_form.php" />
-      <change beforePath="$PROJECT_DIR$/ajax/queries/saveform_course.php" afterPath="$PROJECT_DIR$/ajax/queries/saveform_course.php" />
-      <change beforePath="$PROJECT_DIR$/ajax/tables/config_class_table.php" afterPath="$PROJECT_DIR$/ajax/tables/config_class_table.php" />
-      <change beforePath="$PROJECT_DIR$/ajax/tables/config_department_table.php" afterPath="$PROJECT_DIR$/ajax/tables/config_department_table.php" />
-      <change beforePath="$PROJECT_DIR$/config_courses.php" afterPath="$PROJECT_DIR$/config_courses.php" />
-      <change beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
+      <change beforePath="$PROJECT_DIR$/ajax/tables/config_course_table.php" afterPath="$PROJECT_DIR$/ajax/tables/config_course_table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +26,48 @@
       <file leaf-file-name="config_course_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax/tables/config_course_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3010">
-              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="445">
+              <caret line="292" column="50" lean-forward="false" selection-start-line="292" selection-start-column="50" selection-end-line="292" selection-end-column="50" />
               <folding>
-                <marker date="1562672813563" expanded="true" signature="63:130" ph="select DISTI... course_class" />
-                <marker date="1562672813563" expanded="true" signature="1430:1491" ph="select * fro... course_class" />
+                <marker date="1562675136023" expanded="true" signature="63:130" ph="select DISTI... course_class" />
+                <marker date="1562675136023" expanded="true" signature="1203:1264" ph="select * fro... course_class" />
+                <marker date="1562675136023" expanded="true" signature="1685:1746" ph="select * fro... course_class" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_courseclass.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/queries/delete_courseclass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <marker date="1562675136223" expanded="true" signature="101:154" ph="delete from course_class... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_course.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/queries/delete_course.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <marker date="1562674237871" expanded="true" signature="88:143" ph="delete from course_class... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_department.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/queries/delete_department.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <marker date="1559152155466" expanded="true" signature="86:128" ph="delete from department... " />
               </folding>
             </state>
           </provider>
@@ -94,56 +122,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config_class_table.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config_class_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajax/tables/config_class_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="-648">
+              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <marker date="1562673419876" expanded="true" signature="63:102" ph="select * fro... class" />
                 <marker date="1562673419876" expanded="true" signature="1224:1266" ph="select * fro... department" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emma_school/ajax/course_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <marker date="1523979933500" expanded="true" signature="75:139" ph="select DISTI... course_class" />
-                <marker date="1523979933500" expanded="true" signature="4205:4244" ph="SELECT * FRO... class" />
-                <marker date="1523979933500" expanded="true" signature="12329:12334" ph="&amp;" />
-                <marker date="1523979933500" expanded="true" signature="12453:12583" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/emma_school/ajax/class_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3969">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1524097741786" expanded="true" signature="75:117" ph="select * fro... class" />
-                <marker date="1524097741786" expanded="true" signature="2357:2393" ph="SELECT * FRO... department" />
-                <marker date="1524097741786" expanded="true" signature="9689:9694" ph="&amp;" />
-                <marker date="1524097741786" expanded="true" signature="9813:9943" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config_class_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/forms/config_class_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-              <folding>
-                <marker date="1562671788231" expanded="true" signature="516:565" ph="select * fro... department" />
               </folding>
             </state>
           </provider>
@@ -153,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cont</find>
       <find>dele</find>
       <find>aRandomButton</find>
       <find>ARandomButton</find>
@@ -183,6 +168,7 @@
       <find>optgr</find>
       <find>assign_class</find>
       <find>$qucel</find>
+      <find>delete_course</find>
     </findStrings>
     <replaceStrings>
       <replace>department_</replace>
@@ -236,10 +222,12 @@
         <option value="$PROJECT_DIR$/ajax/queries/saveform_course.php" />
         <option value="$PROJECT_DIR$/config_courses.php" />
         <option value="$PROJECT_DIR$/ajax/forms/config_class_form.php" />
-        <option value="$PROJECT_DIR$/ajax/tables/config_course_table.php" />
         <option value="$PROJECT_DIR$/ajax/forms/config_course_form.php" />
         <option value="$PROJECT_DIR$/ajax/tables/config_department_table.php" />
         <option value="$PROJECT_DIR$/ajax/tables/config_class_table.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/delete_course.php" />
+        <option value="$PROJECT_DIR$/ajax/tables/config_course_table.php" />
+        <option value="$PROJECT_DIR$/ajax/queries/delete_courseclass.php" />
       </list>
     </option>
   </component>
@@ -362,12 +350,12 @@
       <workItem from="1559848843120" duration="2769000" />
       <workItem from="1561094245133" duration="1990000" />
       <workItem from="1561110579686" duration="1998000" />
-      <workItem from="1562648678302" duration="13393000" />
+      <workItem from="1562648678302" duration="15062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88332000" />
+    <option name="totallyTimeSpent" value="90001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -433,14 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ahpc/r/ajax/tables/exam_cert_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_institution_ed.php" />
     <entry file="file://$PROJECT_DIR$/ajax/queries/upload_institution_logo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
@@ -621,13 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/queries/delete_department.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -836,17 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/tables/config_course_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3010">
-          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <marker date="1562672813563" expanded="true" signature="63:130" ph="select DISTI... course_class" />
-            <marker date="1562672813563" expanded="true" signature="1430:1491" ph="select * fro... course_class" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/queries/saveform_course.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -882,11 +844,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/tables/config_class_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="-648">
+          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding>
             <marker date="1562673419876" expanded="true" signature="63:102" ph="select * fro... class" />
             <marker date="1562673419876" expanded="true" signature="1224:1266" ph="select * fro... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/delete_department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <marker date="1559152155466" expanded="true" signature="86:128" ph="delete from department... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/tables/config_course_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="292" column="50" lean-forward="false" selection-start-line="292" selection-start-column="50" selection-end-line="292" selection-end-column="50" />
+          <folding>
+            <marker date="1562675136023" expanded="true" signature="63:130" ph="select DISTI... course_class" />
+            <marker date="1562675136023" expanded="true" signature="1203:1264" ph="select * fro... course_class" />
+            <marker date="1562675136023" expanded="true" signature="1685:1746" ph="select * fro... course_class" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/delete_course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <marker date="1562674237871" expanded="true" signature="88:143" ph="delete from course_class... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/queries/delete_courseclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <marker date="1562675136223" expanded="true" signature="101:154" ph="delete from course_class... " />
           </folding>
         </state>
       </provider>
