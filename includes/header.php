@@ -57,13 +57,22 @@
         }
 
         .form-control {
-            background-color: #fdfdfe !important;
-            border: 0.1px;
+            background-color: #fbfafa !important;
         }
 
         label {
             font-size: small !important;
         }
+
+        .select2-container .select2-selection--single .select2-selection__rendered {
+            background-color: #fbfafa !important;
+        }
+
+        .select2-container--default .select2-search--inline .select2-search__field {
+            background-color: #fbfafa !important;
+        }
+
+
 
 
     </style>

@@ -1,7 +1,7 @@
 <?php include('../../config.php');
 
 
-$qclass = $mysqli->query("select * from class ORDER BY class_name");
+$qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER BY course_name");
 
 
 ?>
@@ -12,7 +12,7 @@ $qclass = $mysqli->query("select * from class ORDER BY class_name");
 
 
     <div class="card-header bg-white">
-        <h5 class="card-title text-black">Class</h5>
+        <h5 class="card-title text-black">Course</h5>
     </div>
 
     <div class="card-body">
@@ -22,9 +22,10 @@ $qclass = $mysqli->query("select * from class ORDER BY class_name");
                 <tr>
                     <th>No.</th>
                     <th>Name</th>
-                    <th>Department</th>
+                    <th>Class(es)</th>
                     <th>Edit</th>
                     <th>Delete</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -43,19 +44,51 @@ $qclass = $mysqli->query("select * from class ORDER BY class_name");
                             echo $counter;
                             ?>
                         </td>
-                        <td><?php echo $rclass['class_name'] ?></td>
-                        <td><?php $did = $rclass['department'];
-                        $q = $mysqli->query("select * from department where id = '$did'");
-                        $r = $q->fetch_assoc();
-                        echo $r['department_name'];
-                        ?></td>
+                        <td><?php echo $course_name = $rclass['course_name'] ?></td>
+                        <td>
+
+                                <table class="display">
+
+
+                                    <?php
+
+                                    $course_name = $rclass['course_name'];
+                                    $getclass = $mysqli->query("select * from course_class where course_name = '$course_name'");
+
+                                    while ($resclass = $getclass->fetch_assoc()){ ?>
+
+                                    <tr>
+
+                                        <td>
+                                            <?php echo $resclass['class']; ?>
+                                        </td>
+
+                                        <td align="center">
+                                            <a href="#" class="delete_department"
+                                               i_index="<?php echo $resclass['id']; ?>">
+                                                Delete
+                                            </a>
+                                        </td>
+
+                                    </tr>
+
+                                    <?php } ?>
+
+                                </table>
+
+
+                        </td>
+
                         <td align="center">
-                            <a href="#" class="edit_class" i_index="<?php echo $rclass['id']; ?>">
+                            <a href="#" class="edit_department"
+                               i_index="<?php echo $resclass['id']; ?>">
                                 <i class="fa fa-2x fa-edit"></i>
                             </a>
                         </td>
+
                         <td align="center">
-                            <a href="#" class="delete_class" i_index="<?php echo $rclass['id']; ?>">
+                            <a href="#" class="delete_department"
+                               i_index="<?php echo $resclass['id']; ?>">
                                 <i class="fa fa-2x fa-trash-o"></i>
                             </a>
                         </td>

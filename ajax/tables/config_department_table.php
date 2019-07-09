@@ -17,7 +17,7 @@ $qdep = $mysqli->query("select * from department ORDER BY department_name");
 
     <div class="card-body">
         <div class="table-responsive">
-            <table id="xp-default-datatable" class="display table table-striped table-bordered">
+            <table id="xp-default-datatable" class="display table table-bordered">
                 <thead>
                 <tr>
                     <th>No.</th>

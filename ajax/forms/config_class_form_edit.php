@@ -18,6 +18,7 @@ $classid = $classr['class_id'];
     </div>
     <div class="card-body">
 
+        <label for="department_edit">Department</label>
         <div class="input-group mb-3">
             <select id="department_edit" style="width: 100%">
                 <option value="">Select Department</option>
@@ -41,11 +42,12 @@ $classid = $classr['class_id'];
         </div>
 
 
+        <label for="class_name_edit">Class Name</label>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fa fa-laptop"></i> </span>
             </div>
-            <input type="text" class="form-control" placeholder="Class Name" id="class_name_edit"
+            <input type="text" class="form-control" placeholder="Enter Class Name" id="class_name_edit"
             value="<?php echo $classr['class_name']; ?>">
         </div>
 

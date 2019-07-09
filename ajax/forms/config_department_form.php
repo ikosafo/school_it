@@ -1,4 +1,8 @@
-<?php $departmentid =  date("ymdhis"); ?>
+<?php
+
+$departmentid =  date("ymdhis").rand(1,10);
+
+?>
 <div class="card m-b-30">
 
     <div class="card-header bg-white">

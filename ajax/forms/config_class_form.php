@@ -2,7 +2,7 @@
 
 include('../../config.php');
 
-$classid = date("ymdhis");
+$classid = date("ymdhis").rand(1,10);
 
 ?>
 
@@ -13,6 +13,7 @@ $classid = date("ymdhis");
     </div>
     <div class="card-body">
 
+        <label for="department">Department</label>
         <div class="input-group mb-3">
             <select id="department" style="width: 100%">
                 <option value="">Select Department</option>
@@ -30,12 +31,12 @@ $classid = date("ymdhis");
             </select>
         </div>
 
-
+        <label for="class_name">Class Name</label>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fa fa-laptop"></i> </span>
             </div>
-            <input type="text" class="form-control" placeholder="Class Name" id="class_name">
+            <input type="text" class="form-control" placeholder="Enter Class Name" id="class_name">
         </div>
 
 
@@ -50,7 +51,9 @@ $classid = date("ymdhis");
 
 <script>
 
-    $("#department").select2();
+    $("#department").select2({
+        placeholder: 'Select Department'
+    });
 
 
     $("#btn_save_class").click(function () {
@@ -100,6 +103,7 @@ $classid = date("ymdhis");
                     if (text == 1) {
 
                         $.notify("Class Saved", "success", {position: "top center"});
+
 
                         $.ajax({
                             type: "POST",
