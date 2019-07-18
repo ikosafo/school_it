@@ -1,8 +1,6 @@
 <?php include('../../config.php');
 
-
 $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER BY course_name");
-
 
 ?>
 
@@ -12,7 +10,7 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
 
     <div class="card-header bg-white">
-        <h5 class="card-title text-black">Course</h5>
+        <h5 class="card-title text-black">Courses</h5>
     </div>
 
     <div class="card-body">
@@ -22,9 +20,12 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                 <tr>
                     <th>No.</th>
                     <th>Name</th>
+                    <!--<th>Code</th>-->
+                    <th>Type</th>
+                    <th>Add Class</th>
+                    <th>Edit Course</th>
+                    <th>Delete Course</th>
                     <th>Class(es)</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
 
                 </tr>
                 </thead>
@@ -49,24 +50,58 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
                         $getid = $mysqli->query("select * from course_class where course_name = '$course_name'");
                         $resid = $getid->fetch_assoc();
                         $course_id = $resid['course_id'];
+                        $course_code = $resid['course_code'];
+                        $course_type = $resid['type'];
 
-                        ?></td>
+                        ?>
+                        </td>
+                       <!-- <td>
+                            <?php /*echo $course_code; */?>
+                        </td>-->
+                        <td>
+                            <?php echo $course_type; ?>
+                        </td>
+
+                        <td align="center">
+                            <a href="#" class="add_class"
+                               i_index="<?php echo $course_id; ?>">
+                                <i class="fa fa-2x fa-plus-circle"></i>
+                            </a>
+                        </td>
+
+                        <td align="center">
+                            <a href="#" class="edit_course"
+                               i_index="<?php echo $course_id; ?>">
+                                <i class="fa fa-2x fa-edit"></i>
+                            </a>
+                        </td>
+
+                        <td align="center">
+                            <a href="#" class="delete_course"
+                               i_index="<?php echo $course_id; ?>">
+                                <i class="fa fa-2x fa-trash-o"></i>
+                            </a>
+                        </td>
+
                         <td>
 
-                                <table class="display">
+                            <table class="display">
 
+                                <?php
 
-                                    <?php
+                                $course_name = $rclass['course_name'];
+                                $getclass = $mysqli->query("select * from course_class where course_name = '$course_name'");
 
-                                    $course_name = $rclass['course_name'];
-                                    $getclass = $mysqli->query("select * from course_class where course_name = '$course_name'");
-
-                                    while ($resclass = $getclass->fetch_assoc()){ ?>
+                                while ($resclass = $getclass->fetch_assoc()){ ?>
 
                                     <tr>
 
                                         <td>
-                                            <?php echo $resclass['class']; ?>
+                                            <?php $classid = $resclass['classid'];
+                                            $getcl = $mysqli->query("select * from class where id = '$classid'");
+                                            $rescl = $getcl->fetch_assoc();
+                                            echo $rescl['class_name']
+                                            ?>
                                         </td>
 
                                         <td align="center">
@@ -78,25 +113,11 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
                                     </tr>
 
-                                    <?php } ?>
+                                <?php } ?>
 
-                                </table>
+                            </table>
 
 
-                        </td>
-
-                        <td align="center">
-                            <a href="#" class="edit_department"
-                               i_index="<?php echo $rclass['course_id']; ?>">
-                                <i class="fa fa-2x fa-edit"></i>
-                            </a>
-                        </td>
-
-                        <td align="center">
-                            <a href="#" class="delete_course"
-                               i_index="<?php echo $course_id; ?>">
-                                <i class="fa fa-2x fa-trash-o"></i>
-                            </a>
                         </td>
 
                     </tr>
@@ -234,6 +255,8 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
 
 
+
+
     $(document).on('click', '.delete_courseclass', function () {
 
         event.preventDefault();
@@ -342,7 +365,11 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
 
 
-    $(document).on('click', '.edit_class', function () {
+
+
+
+
+    $(document).on('click', '.edit_course', function () {
 
         var id_index = $(this).attr('i_index');
 
@@ -350,18 +377,50 @@ $qclass = $mysqli->query("select DISTINCT(course_name) from course_class ORDER B
 
         $.ajax({
             type: "POST",
-            url: "ajax/forms/config_class_form_edit.php",
-            data:
-                {
-                    id_index: id_index
-                },
+            url: "ajax/forms/config_course_form_edit.php",
+            data: {id_index: id_index },
             beforeSend: function () {
                 $.blockUI({
                     message: '<img src="assets/images/load.gif"/>'
                 });
             },
             success: function (text) {
-                $('#class_form_div').html(text);
+                $('#course_form_div').html(text);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.status + " " + thrownError);
+            },
+            complete: function () {
+                $.unblockUI();
+            },
+
+        });
+
+
+    });
+
+
+
+
+
+
+    $(document).on('click', '.add_class', function () {
+
+        var id_index = $(this).attr('i_index');
+
+        //alert(id_index);
+
+        $.ajax({
+            type: "POST",
+            url: "ajax/forms/config_course_add_class.php",
+            data: {id_index: id_index },
+            beforeSend: function () {
+                $.blockUI({
+                    message: '<img src="assets/images/load.gif"/>'
+                });
+            },
+            success: function (text) {
+                $('#course_form_div').html(text);
             },
             error: function (xhr, ajaxOptions, thrownError) {
                 alert(xhr.status + " " + thrownError);

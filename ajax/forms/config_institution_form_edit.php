@@ -89,7 +89,7 @@ $instr = $instq->fetch_assoc();
         <p></p>
 
         <div class="input-group-append mb-3">
-            <button class="btn btn-primary" type="submit" id="btn_update_institution">Update</button>
+            <button class="btn btn-warning" type="submit" id="btn_update_institution">Update</button>
         </div>
 
 

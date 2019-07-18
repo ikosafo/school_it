@@ -81,7 +81,8 @@
 <script src="assets/js/main.js"></script>
 <!-- End JS -->
 
-<script type="text/javascript" src="../../../../themera.net/embed/themera3504.js?id=75197"></script></body>
+<script>
+    $.fn.dataTable.ext.errMode = 'none';
+</script>
 
-<!-- Mirrored from xpanthersolutions.com/html/neon/horizontal/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 May 2019 12:27:51 GMT -->
 </html>

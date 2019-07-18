@@ -55,7 +55,7 @@ $classid = $classr['class_id'];
         <div class="input-group-append mb-3">
 
             <button class="btn btn-secondary mr-2"  type="button" id="btn_cancel_class">Cancel</button>
-            <button class="btn btn-primary ml-2" type="submit" id="btn_update_class">Update</button>
+            <button class="btn btn-warning ml-2" type="submit" id="btn_update_class">Update</button>
         </div>
 
 

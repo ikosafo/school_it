@@ -52,6 +52,7 @@
 
 <script>
 
+
     $.ajax({
         type: "POST",
         url: "ajax/forms/config_course_form.php",
@@ -71,6 +72,7 @@
         },
 
     });
+
 
     $.ajax({
         type: "POST",

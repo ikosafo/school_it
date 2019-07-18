@@ -2,37 +2,32 @@
 
 include('../../config.php');
 
-$courseid = date("ymdhis").rand(1,10);
+$courseid = $_POST['id_index'];
+
+$getdetails = $mysqli->query("select * from course_class where course_id = '$courseid'");
+$resdetails = $getdetails->fetch_assoc();
+$course_name = $resdetails['course_name'];
+
 
 ?>
 <div class="card m-b-30">
 
     <div class="card-header bg-white">
-        <h5 class="card-title text-black">Enter Course</h5>
+        <h5 class="card-title text-black">Update Class</h5>
         <small>Field marked * are required</small>
     </div>
     <div class="card-body">
 
-        <label for="course_name">Course Name *</label>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text"><i class="fa fa-laptop"></i> </span>
-            </div>
-            <input type="text" class="form-control" placeholder="Enter Course Name" id="course_name"
-            autocomplete="off">
-        </div>
+        <label>
+            Assign <b style="text-transform: uppercase"><?php echo $course_name ?></b> to Class
+        </label>
 
-        <!--<label for="course_code">Course Code</label>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text"><i class="fa fa-code"></i> </span>
-            </div>
-            <input type="text" class="form-control" placeholder="Enter Course Code" id="course_code">
-        </div>-->
+        <p></p>
 
-        <label for="assign_class">Assign Course to Class *</label>
+        <label for="addclass">Add Class</label>
         <div class="input-group mb-3">
-            <select name="states[]" style="width: 100%" multiple id="assign_class">
+            <select style="width: 100%" id="addclass">
+
                 <option value=""></option>
 
                 <?php
@@ -45,22 +40,17 @@ $courseid = date("ymdhis").rand(1,10);
                 <?php } ?>
 
 
-            </select>
-        </div>
 
-        <label for="course_type">Course Type</label>
-        <div class="input-group mb-3">
-            <select id="course_type" style="width:100%">
-                <option value=""></option>
-                <option value="Core">Core</option>
-                <option value="Elective">Elective</option>
             </select>
         </div>
 
 
         <div class="input-group-append mb-3">
-            <button class="btn btn-primary" type="button" id="btn_save_course">Submit</button>
+
+            <button class="btn btn-secondary mr-2"  type="button" id="btn_cancel_course">Cancel</button>
+            <button class="btn btn-warning ml-2" type="button" id="btn_addclass">Add Class</button>
         </div>
+
 
 
     </div>
@@ -69,36 +59,47 @@ $courseid = date("ymdhis").rand(1,10);
 
 <script>
 
-    $("#assign_class").selectize({
-        placeholder: 'Assign to Class'
-    });
-
-    $("#course_type").select2({
-        placeholder: 'Select Course Type'
+    $("#addclass").select2({
+        placeholder: 'Select to add Class'
     });
 
 
-    $("#btn_save_course").click(function () {
+    $("#btn_cancel_course").click(function () {
 
 
-        var course_name = $("#course_name").val();
-        //var course_code = $("#course_code").val();
-        var course_type = $("#course_type").val();
-        var assign_class = $("#assign_class").val();
-        var course_id = '<?php echo $courseid; ?>';
+        $.ajax({
+            type: "POST",
+            url: "ajax/forms/config_course_form.php",
+            beforeSend: function () {
+                $.blockUI({
+                    message: '<img src="assets/images/load.gif"/>'
+                });
+            },
+            success: function (text) {
+                $('#course_form_div').html(text);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.status + " " + thrownError);
+            },
+            complete: function () {
+                $.unblockUI();
+            },
 
+        });
+
+    });
+
+
+    $("#btn_addclass").click(function () {
+
+        var course_name = '<?php echo $course_name ?>';
+        var addclass = $("#addclass").val();
 
         var error = '';
 
 
-        if (course_name == "") {
-            error += 'Please enter course name \n';
-            $('#course_name').focus();
-        }
-
-        if (assign_class == "") {
-            error += 'Please assign course to class \n';
-            $('#assign_class').focus();
+        if (addclass == "") {
+            error += 'Please select class \n';
         }
 
 
@@ -108,7 +109,7 @@ $courseid = date("ymdhis").rand(1,10);
 
             $.ajax({
                 type: "POST",
-                url: "ajax/queries/saveform_course.php",
+                url: "ajax/queries/saveform_addclass.php",
                 beforeSend: function () {
                     $.blockUI({
                         message: '<img src="assets/images/load.gif"/>'
@@ -117,23 +118,16 @@ $courseid = date("ymdhis").rand(1,10);
                 data: {
 
                     course_name : course_name,
-                    //course_code:course_code,
-                    course_type : course_type,
-                    assign_class: assign_class,
-                    course_id : course_id
+                    addclass : addclass
 
                 },
                 success: function (text) {
 
                     //alert(text);
 
-                    var nwtext = text.substring(0, 1);
+                    if (text == 1) {
 
-                    //alert(nwtext);
-
-                    if (nwtext == 1) {
-
-                        $.notify("Course Saved", "success", {position: "top center"});
+                        $.notify("Class Saved", "success", {position: "top center"});
 
 
                         $.ajax({
@@ -180,7 +174,7 @@ $courseid = date("ymdhis").rand(1,10);
 
                     }
 
-                    else if (nwtext == 2) {
+                    else if (text == 2) {
 
                         $.notify("Course name already exists for class,", {position: "top center"});
 
