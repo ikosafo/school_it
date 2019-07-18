@@ -5,6 +5,7 @@ $(document).ready(function(){
     $('#datatable').DataTable();
 
     $('#xp-default-datatable').DataTable( {
+        "aaSorting": [],
         fixedHeader: true,
         buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
         "order": [[ 3, "desc" ]]

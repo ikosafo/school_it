@@ -75,6 +75,10 @@
 <script src="assets/js/init/form-select-init.js"></script>
 <script src="assets/js/selectize.js"></script>
 
+<!-- Datepicker JS -->
+<script src="assets/plugins/datepicker/datepicker.min.js"></script>
+<script src="assets/plugins/datepicker/i18n/datepicker.en.js"></script>
+<script src="assets/js/init/form-datepicker-init.js"></script>
 
 
 <!-- Main JS -->

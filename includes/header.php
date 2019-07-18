@@ -39,7 +39,7 @@
     <!-- Tagsinput CSS -->
     <link href="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet" type="text/css">
     <link href="assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.css" rel="stylesheet" type="text/css">
-
+    <link href="assets/plugins/datepicker/datepicker.min.css" rel="stylesheet" type="text/css">
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
