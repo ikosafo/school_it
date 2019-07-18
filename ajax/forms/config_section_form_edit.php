@@ -2,46 +2,39 @@
 
 include('../../config.php');
 
-$classid = date("ymdhis").rand(1,10);
+$id_index = $_POST['id_index'];
+
+$depq = $mysqli->query("select * from section where id = '$id_index'");
+$depr = $depq->fetch_assoc();
+
+$section_id = $depr['section_id'];
+
 
 ?>
+
 
 <div class="card m-b-30">
 
     <div class="card-header bg-white">
-        <h5 class="card-title text-black">Enter Class</h5>
+        <h5 class="card-title text-black">Update Section Details</h5>
     </div>
     <div class="card-body">
 
-        <label for="department">Department</label>
-        <div class="input-group mb-3">
-            <select id="department" style="width: 100%">
-                <option value="">Select Department</option>
-
-                <?php
-                $query = $mysqli->query("select * from department ORDER BY department_name");
-
-                while ($result = $query->fetch_assoc()) { ?>
-
-                    <option value="<?php echo $result['id'] ?>"><?php echo $result['department_name'] ?></option>
-
-                <?php } ?>
-
-
-            </select>
-        </div>
-
-        <label for="class_name">Class Name</label>
+        <label for="section_name_edit">Section Name</label>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fa fa-laptop"></i> </span>
             </div>
-            <input type="text" class="form-control" placeholder="Enter Class Name" id="class_name">
+            <input type="text" class="form-control" placeholder="Section Name" id="section_name_edit"
+                   value="<?php echo $depr['section_name']; ?>">
         </div>
 
 
         <div class="input-group-append mb-3">
-            <button class="btn btn-primary" type="button" id="btn_save_class">Submit</button>
+
+            <button class="btn btn-secondary mr-2"  type="button" id="btn_cancel_section">Cancel</button>
+            <button class="btn btn-warning ml-2" type="button" id="btn_update_section">Update</button>
+
         </div>
 
 
@@ -51,31 +44,19 @@ $classid = date("ymdhis").rand(1,10);
 
 <script>
 
-    $("#department").select2({
-        placeholder: 'Select Department'
-    });
 
+    $("#btn_update_section").click(function () {
 
-    $("#btn_save_class").click(function () {
-
-        var class_name = $("#class_name").val();
-        var department = $("#department").val();
-        var class_id = '<?php echo $classid; ?>';
-
-        //alert(department);
+        var section_name_edit = $("#section_name_edit").val();
+        var section_id = '<?php echo $section_id; ?>';
 
         var error = '';
 
 
-        if (department == "") {
-            error += 'Please select department \n';
+        if (section_name_edit == "") {
+            error += 'Please enter section name\n';
+            $("#section_name_edit").focus();
         }
-
-        if (class_name == "") {
-            error += 'Please enter class name \n';
-            $("#class_name").focus();
-        }
-
 
 
         if (error == "") {
@@ -83,7 +64,7 @@ $classid = date("ymdhis").rand(1,10);
 
             $.ajax({
                 type: "POST",
-                url: "ajax/queries/saveform_class.php",
+                url: "ajax/queries/saveform_section.php",
                 beforeSend: function () {
                     $.blockUI({
                         message: '<img src="assets/images/load.gif"/>'
@@ -91,32 +72,31 @@ $classid = date("ymdhis").rand(1,10);
                 },
                 data: {
 
-                    class_name: class_name,
-                    department: department,
-                    class_id: class_id
+                    section_name: section_name_edit,
+                    section_id: section_id
 
                 },
                 success: function (text) {
 
                     //alert(text);
 
-                    if (text == 1) {
+                    if (text == 3) {
 
-                        $.notify("Class Saved", "success", {position: "top center"});
+
+
+                        $.notify("Section Updated", "success", {position: "top center"});
 
 
                         $.ajax({
                             type: "POST",
-                            url: "ajax/forms/config_class_form.php",
+                            url: "ajax/forms/config_section_form.php",
                             beforeSend: function () {
-
                                 $.blockUI({
                                     message: '<img src="assets/images/load.gif"/>'
                                 });
-
                             },
                             success: function (text) {
-                                $('#class_form_div').html(text);
+                                $('#section_form_div').html(text);
                             },
                             error: function (xhr, ajaxOptions, thrownError) {
                                 alert(xhr.status + " " + thrownError);
@@ -128,18 +108,17 @@ $classid = date("ymdhis").rand(1,10);
                         });
 
 
+
                         $.ajax({
                             type: "POST",
-                            url: "ajax/tables/config_class_table.php",
+                            url: "ajax/tables/config_section_table.php",
                             beforeSend: function () {
-
                                 $.blockUI({
                                     message: '<img src="assets/images/load.gif"/>'
                                 });
-
                             },
                             success: function (text) {
-                                $('#class_table_div').html(text);
+                                $('#section_table_div').html(text);
                             },
                             error: function (xhr, ajaxOptions, thrownError) {
                                 alert(xhr.status + " " + thrownError);
@@ -150,13 +129,13 @@ $classid = date("ymdhis").rand(1,10);
 
                         });
 
-                    }
-
-                    else if (text == 2) {
-
-                        $.notify("Class name already exists,", {position: "top center"});
 
                     }
+
+                    else if (text == 4) {
+                        $.notify("Section name already exists",{position:"top center"});
+                    }
+
 
 
                 },
@@ -170,16 +149,55 @@ $classid = date("ymdhis").rand(1,10);
 
             });
 
+
         }
 
 
         else {
 
+
             $.notify(error, {position: "top left"});
 
         }
 
+
         return false;
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+    $("#btn_cancel_section").click(function () {
+
+
+        $.ajax({
+            type: "POST",
+            url: "ajax/forms/config_section_form.php",
+            beforeSend: function () {
+                $.blockUI({
+                    message: '<img src="assets/images/load.gif"/>'
+                });
+            },
+            success: function (text) {
+                $('#section_form_div').html(text);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.status + " " + thrownError);
+            },
+            complete: function () {
+                $.unblockUI();
+            },
+
+        });
 
     });
 

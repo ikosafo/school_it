@@ -336,6 +336,7 @@
                                             <li><a href="config_class.php">Class</a></li>
                                             <li><a href="config_courses.php">Courses/Programs</a></li>
                                             <li><a href="config_clubs.php">Clubs</a></li>
+                                            <li><a href="config_sections.php">Sections</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">

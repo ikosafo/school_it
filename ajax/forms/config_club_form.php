@@ -2,46 +2,28 @@
 
 include('../../config.php');
 
-$classid = date("ymdhis").rand(1,10);
+$clubid = date("ymdhis").rand(1,10);
 
 ?>
 
 <div class="card m-b-30">
 
     <div class="card-header bg-white">
-        <h5 class="card-title text-black">Enter Class</h5>
+        <h5 class="card-title text-black">Enter Club</h5>
     </div>
     <div class="card-body">
 
-        <label for="department">Department</label>
-        <div class="input-group mb-3">
-            <select id="department" style="width: 100%">
-                <option value="">Select Department</option>
-
-                <?php
-                $query = $mysqli->query("select * from department ORDER BY department_name");
-
-                while ($result = $query->fetch_assoc()) { ?>
-
-                    <option value="<?php echo $result['id'] ?>"><?php echo $result['department_name'] ?></option>
-
-                <?php } ?>
-
-
-            </select>
-        </div>
-
-        <label for="class_name">Class Name</label>
+        <label for="club_name">Club Name</label>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fa fa-laptop"></i> </span>
             </div>
-            <input type="text" class="form-control" placeholder="Enter Class Name" id="class_name">
+            <input type="text" class="form-control" placeholder="Enter Club Name" id="club_name">
         </div>
 
 
         <div class="input-group-append mb-3">
-            <button class="btn btn-primary" type="button" id="btn_save_class">Submit</button>
+            <button class="btn btn-primary" type="button" id="btn_save_club">Submit</button>
         </div>
 
 
@@ -51,29 +33,18 @@ $classid = date("ymdhis").rand(1,10);
 
 <script>
 
-    $("#department").select2({
-        placeholder: 'Select Department'
-    });
+    $("#btn_save_club").click(function () {
 
+        var club_name = $("#club_name").val();
+        var club_id = '<?php echo $clubid; ?>';
 
-    $("#btn_save_class").click(function () {
-
-        var class_name = $("#class_name").val();
-        var department = $("#department").val();
-        var class_id = '<?php echo $classid; ?>';
-
-        //alert(department);
 
         var error = '';
 
 
-        if (department == "") {
-            error += 'Please select department \n';
-        }
-
-        if (class_name == "") {
-            error += 'Please enter class name \n';
-            $("#class_name").focus();
+        if (club_name == "") {
+            error += 'Please enter club name \n';
+            $("#club_name").focus();
         }
 
 
@@ -83,7 +54,7 @@ $classid = date("ymdhis").rand(1,10);
 
             $.ajax({
                 type: "POST",
-                url: "ajax/queries/saveform_class.php",
+                url: "ajax/queries/saveform_club.php",
                 beforeSend: function () {
                     $.blockUI({
                         message: '<img src="assets/images/load.gif"/>'
@@ -91,9 +62,8 @@ $classid = date("ymdhis").rand(1,10);
                 },
                 data: {
 
-                    class_name: class_name,
-                    department: department,
-                    class_id: class_id
+                    club_name: club_name,
+                    club_id: club_id
 
                 },
                 success: function (text) {
@@ -102,12 +72,12 @@ $classid = date("ymdhis").rand(1,10);
 
                     if (text == 1) {
 
-                        $.notify("Class Saved", "success", {position: "top center"});
+                        $.notify("Club Saved", "success", {position: "top center"});
 
 
                         $.ajax({
                             type: "POST",
-                            url: "ajax/forms/config_class_form.php",
+                            url: "ajax/forms/config_club_form.php",
                             beforeSend: function () {
 
                                 $.blockUI({
@@ -116,7 +86,7 @@ $classid = date("ymdhis").rand(1,10);
 
                             },
                             success: function (text) {
-                                $('#class_form_div').html(text);
+                                $('#club_form_div').html(text);
                             },
                             error: function (xhr, ajaxOptions, thrownError) {
                                 alert(xhr.status + " " + thrownError);
@@ -130,7 +100,7 @@ $classid = date("ymdhis").rand(1,10);
 
                         $.ajax({
                             type: "POST",
-                            url: "ajax/tables/config_class_table.php",
+                            url: "ajax/tables/config_club_table.php",
                             beforeSend: function () {
 
                                 $.blockUI({
@@ -139,7 +109,7 @@ $classid = date("ymdhis").rand(1,10);
 
                             },
                             success: function (text) {
-                                $('#class_table_div').html(text);
+                                $('#club_table_div').html(text);
                             },
                             error: function (xhr, ajaxOptions, thrownError) {
                                 alert(xhr.status + " " + thrownError);
@@ -154,7 +124,7 @@ $classid = date("ymdhis").rand(1,10);
 
                     else if (text == 2) {
 
-                        $.notify("Class name already exists,", {position: "top center"});
+                        $.notify("Club name already exists,", {position: "top center"});
 
                     }
 

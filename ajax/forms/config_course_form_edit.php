@@ -139,7 +139,7 @@ $course_name = $resdetails['course_name'];
 
                     if (text == 1) {
 
-                        $.notify("Course Saved", "success", {position: "top center"});
+                        $.notify("Course Updated", "success", {position: "top center"});
 
 
                         $.ajax({
