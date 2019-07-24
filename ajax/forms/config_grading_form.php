@@ -68,16 +68,6 @@ include('../../config.php');
         </div>
 
 
-        <label for="remark">Remark</label>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text"><i class="fa fa-comment-o"></i> </span>
-            </div>
-            <input type="text" class="form-control" placeholder="Enter Remark" autocomplete="off"
-                   id="remark">
-        </div>
-
-
         <label for="computinggrade">Grade for Computing</label>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
@@ -95,6 +85,16 @@ include('../../config.php');
             </div>
             <input type="text" class="form-control" placeholder="Enter Grade" autocomplete="off"
                    id="displaygrade">
+        </div>
+
+
+        <label for="remark">Remark</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-comment-o"></i> </span>
+            </div>
+            <input type="text" class="form-control" placeholder="Enter Remark" autocomplete="off"
+                   id="remark">
         </div>
 
 
@@ -120,9 +120,12 @@ include('../../config.php');
     $("#btn_save_grading").click(function () {
 
         var department = $("#department").val();
-        var classmark = $("#classmark").val();
-        var exammark = $("#exammark").val();
-        var sum = parseInt(classmark) + parseInt(exammark);
+        var markfrom = $("#markfrom").val();
+        var markto = $("#markto").val();
+        var remark = $("#remark").val();
+        var displaygrade = $("#displaygrade").val();
+        var computinggrade = $("#computinggrade").val();
+
 
 
         //alert(sum);
@@ -134,14 +137,29 @@ include('../../config.php');
             error += 'Please select department \n';
         }
 
-        if (classmark == "") {
-            error += 'Please enter class mark \n';
-            $('#classmark').focus()
+        if (markfrom == "") {
+            error += 'Please enter mark from \n';
+            $('#markfrom').focus()
         }
 
-        if (exammark == "") {
-            error += 'Please enter exam mark \n';
-            $('#exammark').focus()
+        if (markto == "") {
+            error += 'Please enter mark to \n';
+            $('#markto').focus()
+        }
+
+        if (computinggrade == "") {
+            error += 'Please enter grade for computing \n';
+            $('#computinggrade').focus()
+        }
+
+        if (displaygrade == "") {
+            error += 'Please enter grade to display \n';
+            $('#displaygrade').focus()
+        }
+
+        if (remark == "") {
+            error += 'Please enter remark \n';
+            $('#remark').focus()
         }
 
 
@@ -160,11 +178,14 @@ include('../../config.php');
                 },
                 data: {
 
-                    department: department,
-                    classmark: classmark,
-                    exammark: exammark
+                    department:department,
+                    markfrom:markfrom,
+                    markto:markfrom,
+                    remark:remark,
+                    displaygrade:displaygrade,
+                    computinggrade:computinggrade
 
-                },
+        },
                 success: function (text) {
 
                     //alert(text);
