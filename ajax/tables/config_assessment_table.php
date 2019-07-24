@@ -106,7 +106,7 @@ $qdep = $mysqli->query("select * from assessment_config ORDER BY department,id D
             //alert(id_index);
 
             $.confirm({
-                title: 'Delete Fees and Attendance record!',
+                title: 'Delete Assessment Configuration record!',
                 content: 'Are you sure to continue?',
                 buttons: {
                     no: {
