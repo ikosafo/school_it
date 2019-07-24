@@ -26,13 +26,13 @@ $resdetails = $getdetails->fetch_assoc();
 <div class="card m-b-30">
 
     <div class="card-header bg-white">
-        <h5 class="card-title text-black">Enter Fees and Attendance</h5>
+        <h5 class="card-title text-black">Update Fees and Attendance</h5>
     </div>
     <div class="card-body">
 
         <label for="academicyear">Academic Year</label>
         <div class="input-group mb-3">
-            <select id="academicyear" style="width: 100%">
+            <select id="academicyear" style="width: 100%" disabled>
                 <option value="">Select Academic Year</option>
 
                 <option <?php if (@$resdetails['academicyear'] == "2018/2019") echo "Selected" ?>>2018 / 2019</option>
@@ -74,7 +74,7 @@ $resdetails = $getdetails->fetch_assoc();
 
         <label for="academicterm">Term</label>
         <div class="input-group mb-3">
-            <select id="academicterm" style="width: 100%">
+            <select id="academicterm" style="width: 100%" disabled>
                 <option value="">Select Term</option>
 
                 <option <?php if (@$resdetails['term'] == "Term One") echo "Selected" ?>>Term One</option>
@@ -126,7 +126,7 @@ $resdetails = $getdetails->fetch_assoc();
         </div>
 
 
-        <div class="input-group-append mb-3">
+        <div class="input-group-append mb-3 mt-lg-5">
 
             <button class="btn btn-secondary mr-2"  type="button" id="btn_cancel_feesatt">Cancel</button>
             <button class="btn btn-warning ml-2" type="button" id="btn_update_feesatt">Update</button>
@@ -153,15 +153,44 @@ $resdetails = $getdetails->fetch_assoc();
     });
 
 
-    $("#btn_save_feesatt").click(function () {
+
+    $("#btn_cancel_feesatt").click(function () {
+
+
+        $.ajax({
+            type: "POST",
+            url: "ajax/forms/config_feesatt_form.php",
+            beforeSend: function () {
+                $.blockUI({
+                    message: '<img src="assets/images/load.gif"/>'
+                });
+            },
+            success: function (text) {
+                $('#feesatt_form_div').html(text);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                alert(xhr.status + " " + thrownError);
+            },
+            complete: function () {
+                $.unblockUI();
+            },
+
+        });
+
+    });
+
+
+
+    $("#btn_update_feesatt").click(function () {
 
         var academic_year = $("#academicyear").val();
         var academic_term = $("#academicterm").val();
         var department = $("#department").val();
         var schoolfees = $("#schoolfees").val();
         var attendance = $("#attendance").val();
+        var fid = '<?php echo $id; ?>';
 
-        //alert(academicyear);
+        //alert(department);
 
         var error = '';
 
@@ -194,7 +223,7 @@ $resdetails = $getdetails->fetch_assoc();
 
             $.ajax({
                 type: "POST",
-                url: "ajax/queries/saveform_feesatt.php",
+                url: "ajax/queries/saveform_feesatt_edit.php",
                 beforeSend: function () {
                     $.blockUI({
                         message: '<img src="assets/images/load.gif"/>'
@@ -206,7 +235,8 @@ $resdetails = $getdetails->fetch_assoc();
                     academic_term: academic_term,
                     department: department,
                     schoolfees: schoolfees,
-                    attendance: attendance
+                    attendance: attendance,
+                    fid:fid
 
                 },
                 success: function (text) {
@@ -215,7 +245,7 @@ $resdetails = $getdetails->fetch_assoc();
 
                     if (text == 1) {
 
-                        $.notify("Academic Session Saved", "success", {position: "top center"});
+                        $.notify("Academic Session Updated", "success", {position: "top center"});
 
 
                         $.ajax({

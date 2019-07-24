@@ -169,13 +169,6 @@ $section_id = $depr['section_id'];
 
 
 
-
-
-
-
-
-
-
     $("#btn_cancel_section").click(function () {
 
 

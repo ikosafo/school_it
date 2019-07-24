@@ -110,7 +110,7 @@ include('../../config.php');
                 <span class="input-group-text"><i class="fa fa-money"></i> </span>
             </div>
             <input type="text" class="form-control" placeholder="Enter Fees"
-                   id="schoolfees" onkeypress="return isNumber(event)">
+                   id="schoolfees" onkeypress="return isNumber(event)" autocomplete="off">
         </div>
 
 
@@ -120,7 +120,7 @@ include('../../config.php');
                 <span class="input-group-text"><i class="fa fa-check-circle-o"></i> </span>
             </div>
             <input type="text" class="form-control" placeholder="Enter Attendance"
-                   id="attendance" onkeypress="return isNumber(event)">
+                   id="attendance" onkeypress="return isNumber(event)" autocomplete="off">
         </div>
 
 
