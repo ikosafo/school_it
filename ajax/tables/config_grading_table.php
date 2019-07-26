@@ -1,7 +1,7 @@
 <?php include('../../config.php');
 
 
-$qdep = $mysqli->query("select * from grading ORDER BY department,id DESC");
+$qdep = $mysqli->query("select * from grading GROUP BY department ORDER BY department,id DESC");
 
 
 ?>
@@ -23,8 +23,7 @@ $qdep = $mysqli->query("select * from grading ORDER BY department,id DESC");
                     <th>No.</th>
                     <th>Department</th>
                     <th>Grading</th>
-                    <th>Edit</th>
-                    <th>Delete</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -49,18 +48,64 @@ $qdep = $mysqli->query("select * from grading ORDER BY department,id DESC");
                             echo $resname['department_name'];
                             ?>
                         </td>
-                        <td><?php echo $rdep['classmark'] ?></td>
-                        <td><?php echo $rdep['exammark'] ?></td>
-                        <td align="center">
-                            <a href="#" class="edit_grading" i_index="<?php echo $rdep['id']; ?>">
-                                <i class="fa fa-2x fa-edit"></i>
-                            </a>
+                        <td>
+
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Mark From</th>
+                                    <th>Mark To</th>
+                                    <th>Remark</th>
+                                    <th>Grade (Compute)</th>
+                                    <th>Grade (Display)</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>
+
+                                </thead>
+                                <?php
+                                $getgrades = $mysqli->query("select * from grading where 
+                                   department = '$department' ORDER BY markto DESC,markfrom DESC");
+                                while ($resgrades = $getgrades->fetch_assoc()) { ?>
+                                    <tbody>
+                                    <tr>
+
+
+                                        <td>
+                                            <?php echo $resgrades['markfrom'] ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $resgrades['markto'] ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $resgrades['remark'] ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $resgrades['grade'] ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $resgrades['displaygrade'] ?>
+                                        </td>
+                                        <td align="center">
+                                            <a href="#" class="edit_grading" i_index="<?php echo $resgrades['id']; ?>">
+                                                <i class="fa fa-2x fa-edit"></i>
+                                            </a>
+                                        </td>
+                                        <td align="center">
+                                            <a href="#" class="delete_grading"
+                                               i_index="<?php echo $resgrades['id']; ?>">
+                                                <i class="fa fa-2x fa-trash-o"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+
+
+                                <?php } ?>
+
+                            </table>
                         </td>
-                        <td align="center">
-                            <a href="#" class="delete_grading" i_index="<?php echo $rdep['id']; ?>">
-                                <i class="fa fa-2x fa-trash-o"></i>
-                            </a>
-                        </td>
+
 
                     </tr>
 
@@ -84,11 +129,11 @@ $qdep = $mysqli->query("select * from grading ORDER BY department,id DESC");
 
 <script>
 
-    $('#acad_db').DataTable( {
-        "scrollY":        "600px",
+    $('#acad_db').DataTable({
+        "scrollY": "600px",
         "scrollCollapse": true,
-        "paging":         false
-    } );
+        "paging": false
+    });
 
     $_blockDelete = false;
 
@@ -105,7 +150,7 @@ $qdep = $mysqli->query("select * from grading ORDER BY department,id DESC");
             //alert(id_index);
 
             $.confirm({
-                title: 'Delete grading Configuration record!',
+                title: 'Delete Grading Configuration record!',
                 content: 'Are you sure to continue?',
                 buttons: {
                     no: {

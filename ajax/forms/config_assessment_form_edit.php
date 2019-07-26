@@ -241,7 +241,6 @@ $resdetails = $getdetails->fetch_assoc();
 
 
 
-
     $("#btn_cancel_assessment").click(function () {
 
 

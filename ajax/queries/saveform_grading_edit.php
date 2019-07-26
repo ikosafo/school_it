@@ -8,9 +8,16 @@ $markto = mysqli_real_escape_string($mysqli, $_POST['markto']);
 $remark = mysqli_real_escape_string($mysqli, $_POST['remark']);
 $displaygrade = mysqli_real_escape_string($mysqli, $_POST['displaygrade']);
 $computinggrade = mysqli_real_escape_string($mysqli, $_POST['computinggrade']);
+$gradeid = mysqli_real_escape_string($mysqli, $_POST['gradeid']);
 
 
-$chk = $mysqli->query("select * from grading where department = '$department' and (
+$getid = $mysqli->query("select * from department where department_name = '$department'");
+$resid = $getid->fetch_assoc();
+$deptid = $resid['id'];
+
+
+
+$chk = $mysqli->query("select * from grading where department = '$deptid' and (
 
 (markfrom <= $markfrom and markto >= $markto) or
 
@@ -24,19 +31,16 @@ $count = mysqli_num_rows($chk);
 if ($count == "0") {
 
 
-    $mysqli->query("INSERT INTO `grading`
-            (`department`,
-             `markfrom`,
-             `markto`,
-             `remark`,
-             `grade`,
-             `displaygrade`)
-VALUES ('$department',
-        '$markfrom',
-        '$markto',
-        '$remark',
-        '$computinggrade',
-        '$displaygrade')") or die(mysqli_error($mysqli));
+    $mysqli->query("UPDATE `grading`
+SET 
+  `department` = '$deptid',
+  `markfrom` = '$markfrom',
+  `markto` = '$markto',
+  `remark` = '$remark',
+  `grade` = '$computinggrade',
+  `displaygrade` = '$displaygrade'
+  
+WHERE `id` = '$gradeid'") or die(mysqli_error($mysqli));
 
     echo 1;
 
